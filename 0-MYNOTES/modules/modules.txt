@@ -1,0 +1,7 @@
+i've learnt: os, path, fs(File System)
+
+
+important ones:
+os: userInfo()
+path: join(), basename(), resolve(), __dirname <--- this basically shows the location the current file is at
+fs: readFileSync(), writeFileSync()

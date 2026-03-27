@@ -1,0 +1,9 @@
+// dataFromOtherFile will be the data of the file from the directory given 
+const dataFromOtherFile = readFileSync('/put/directory/here', 'utf8') 
+
+
+writeFileSync(
+  '/put/directory/here',
+  'Some data you want to write in that file',
+  {flag: 'a'} <------- 'a' stands for append. so instead of rewriting it just adds the data (optional)
+  )
