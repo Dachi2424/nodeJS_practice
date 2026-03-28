@@ -6,10 +6,18 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dachi2424/nodeJS_practice.git"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Dachi2424/nodeJS_practice/issues"
+  },
+  "homepage": "https://github.com/Dachi2424/nodeJS_practice#readme",
   "dependencies": {
     "bootstrap": "^5.3.8",
     "lodash": "^4.17.23"
